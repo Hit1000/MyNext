@@ -1,5 +1,11 @@
+import Tester from "../_comp/page";
+
 function Contacts() {
-    return <div>Contacts</div>;
+    return(
+    <>
+        <Tester />
+        <div>Contacts</div>
+    </>)
 }
 
 export default Contacts;
