@@ -14,6 +14,9 @@ export default function Home() {
         {name: "Docs Features", href: "/docs/features/1"},
         {name: "Docs Features 2", href: "/docs/features/2"},
         {name: "Docs Features 3", href: "/docs/features/3"},
+        {name: "articles in english", href: "/articles/this-is-a-title?lang=en"},
+        {name: "articles in french", href: "/articles/this-is-a-title?lang=fr"},
+    
     ]
     console.log("hello world hay this is server component");
     return (
@@ -25,7 +28,7 @@ export default function Home() {
             
             {list.map((item) => (
                 <div className="text-blue-500">
-                <Link href={item.href}>{item.name}</Link>   
+                    <Link href={item.href}>{item.name}</Link>   
                 </div>
             ))}
 
