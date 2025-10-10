@@ -17,6 +17,7 @@ async function page({
         <h1>news article {articleId}</h1>
         <p>This is the news article</p>
         <p>reading in {lang}</p>
+        
         <div className="flex gap-4 text-blue-700">
             <Link href={`/articles/${articleId}?lang=en`}>English</Link>
             <Link href={`/articles/${articleId}?lang=es`}>Spanish</Link>
