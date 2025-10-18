@@ -7,7 +7,8 @@ function Nav() {
     { name: "Contacts", href: "/contacts" },
     { name: "Products", href: "/products" },
     { name: "Docs", href: "/docs" },
-    { name: "Articles", href: "/articles" },
+    { name: "Articles", href: "/articles/eng" },
+    { name: "Complex", href: "/complex" },
   ];
   const pathname = usePathname();
   return (
