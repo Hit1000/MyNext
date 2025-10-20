@@ -9,6 +9,7 @@ function Nav() {
     { name: "Docs", href: "/docs" },
     { name: "Articles", href: "/articles/eng" },
     { name: "Complex", href: "/complex" },
+    { name: "F1", href: "/f1" },
   ];
   const pathname = usePathname();
   return (
