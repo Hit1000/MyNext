@@ -1,0 +1,13 @@
+Use SSR for:
+Dynamic data that changes per request
+Authentication-required pages
+Ecommerce product details
+Dashboard data
+
+
+
+Use CSR for:
+User dashboards
+Live updates / sockets
+Forms, interactive UI, chat app, admin panels
+Pages NOT important for SEO
