@@ -11,3 +11,7 @@ User dashboards
 Live updates / sockets
 Forms, interactive UI, chat app, admin panels
 Pages NOT important for SEO
+
+
+
+you can create server function for db call in client page to with "use server" 
