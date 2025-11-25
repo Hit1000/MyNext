@@ -15,3 +15,7 @@ Pages NOT important for SEO
 
 
 you can create server function for db call in client page to with "use server" 
+
+
+to pass the id parameter use "parameter.bind(null, product.id)" this will pass the id parameter
+without exposing it to the html and network
